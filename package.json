@@ -1,0 +1,23 @@
+{
+  "name": "express-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node  register.js -- --env=dev",
+    "dev-debug": "node debug register.js -- --env=dev"
+  },
+  "author": "lowinwu",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "hash-string": "^1.0.0",
+    "i18next": "^15.0.4",
+    "i18next-express-middleware": "^1.7.1",
+    "i18next-node-fs-backend": "^2.1.1",
+    "nodemon": "^1.18.10",
+    "ts-node": "^8.0.2",
+    "typescript": "^3.3.3"
+  }
+}
